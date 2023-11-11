@@ -10,6 +10,6 @@ let arr1 = arr.map(ele=>ele + 10);
  console.log(filteredArr);
  /////////here i Find out the average number of that class using reduce Method
 let arr4 = [10,20,44,55,66,77,88,];
-let Total = arr4.reduce((acc, current) => acc + current, 0);
+let Total = arr4.reduce((acc, current) => acc + current, );
 let average = Total / arr4.length;
 console.log(average);
