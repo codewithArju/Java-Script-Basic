@@ -13,3 +13,9 @@ let arr4 = [10,20,44,55,66,77,88,];
 let Total = arr4.reduce((acc, current) => acc + current, );
 let average = Total / arr4.length;
 console.log(average);
+////////Assignment 10: using spread operator manipulate string
+let str = "Hello";
+console.log(str);
+let str1 = [...str];
+console.log(str1); 
+////////
