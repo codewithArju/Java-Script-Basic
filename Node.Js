@@ -19,3 +19,15 @@ console.log(str);
 let str1 = [...str];
 console.log(str1); 
 ////////
+let a ='silent';
+let b ='listen';
+const string1 =a.split(' ').sort( ).join(' ');
+const str2 =b.split(' ').sort( ).join(' ');
+ if (string1== str2)
+ {
+    console.log("anagram string"); 
+ }
+else
+{
+console.log("not anagram string");
+}
